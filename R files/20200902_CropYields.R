@@ -53,7 +53,7 @@ potatoe_bar_plot <- ggplot(potatoes_top5, aes(x=rank, group_by(Entity), fill=as.
         plot.title=element_text(size=30, vjust=0.5, hjust=0.25, face="bold", colour="gray32"),
         plot.subtitle=element_text(size=25, vjust=0.5, hjust=0.25, face="italic", color="gray32"),
         plot.caption =element_text(size=12, hjust=0.75, face="italic", color="gray32"),
-        plot.margin = margin(1, -7, 1, 2, "cm"))
+        plot.margin = margin(1, -7, 1, 1, "cm"))
 
 # Animate the bar chart to change each year
 potatoe_anim = potatoe_bar_plot + transition_states(Year, transition_length = 3, state_length = 1.5) +
@@ -65,5 +65,5 @@ potatoe_anim = potatoe_bar_plot + transition_states(Year, transition_length = 3,
 # With the animation being built (ready) and saved in the object anim , It’s time for us to render the animation using animate() function. The renderer used in the animate() differs based on the type of output file required.
 # For GIF File Format:
 animate(potatoe_anim,350, fps = 6,  width = 1200, height = 1000, 
-        renderer = gifski_renderer("gganim_potatoes.gif"), rewind=FALSE, end_pause=5)
+        renderer = gifski_renderer("plots/potatoe_animation.gif"), rewind=FALSE, end_pause=5)
 
