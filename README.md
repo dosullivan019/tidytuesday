@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2020
+### Week 36: Global Crop Yields
+![Top 5 Countries for Potatoe Crop Yield Animated Bar Plot](https://github.com/dosullivan019/tidytuesday/blob/master/plots/potatoe_animation.gif)
+
 ### Week 35: Chopped
 ![Chopped Entree Ingredients Word Cloud](https://github.com/dosullivan019/tidytuesday/blob/master/plots/chopped_word_plot.png)
 

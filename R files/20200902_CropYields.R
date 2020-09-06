@@ -36,8 +36,9 @@ potatoe_bar_plot <- ggplot(potatoes_top5, aes(x=rank, group_by(Entity), fill=as.
   scale_y_continuous(limits = c(-10, max(potatoes_top10$`Potatoes (tonnes per hectare)`))) +
   scale_colour_manual(values=kovesi.linear_ternary_blue_0_44_c57(length(unique(potatoes_top10$Entity)))) + 
   scale_fill_manual(values=kovesi.linear_ternary_blue_0_44_c57(length(unique(potatoes_top10$Entity)))) + 
-  coord_flip(expand=TRUE) + scale_x_reverse() + 
-  theme_minimal() +
+  coord_flip(expand=TRUE) + scale_x_reverse() + # reverse x scale so rank 1 is at the top
+  theme_minimal() + 
+  # setting all theme elements to blank to make the plot clean
   theme(legend.position = 'none',
         axis.line=element_blank(),
         axis.title.x = element_blank(),
@@ -62,8 +63,7 @@ potatoe_anim = potatoe_bar_plot + transition_states(Year, transition_length = 3,
        caption  = "Data Source: Our World in Data"
       )
 
-# With the animation being built (ready) and saved in the object anim , It’s time for us to render the animation using animate() function. The renderer used in the animate() differs based on the type of output file required.
 # For GIF File Format:
-animate(potatoe_anim,350, fps = 6,  width = 1200, height = 1000, 
+animate(potatoe_anim, nframes=350, fps = 6,  width = 1200, height = 1000, # larger nframes makes a smoother animation
         renderer = gifski_renderer("plots/potatoe_animation.gif"), rewind=FALSE, end_pause=5)
 
