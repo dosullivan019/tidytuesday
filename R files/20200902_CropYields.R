@@ -58,7 +58,7 @@ potatoe_bar_plot <- ggplot(potatoes_top5, aes(x=rank, group_by(Entity), fill=as.
 
 # Animate the bar chart to change each year
 potatoe_anim = potatoe_bar_plot + transition_states(Year, transition_length = 3, state_length = 1.5) +
-  labs(title = 'Potatoe Yield (tonnes per hectare) : {closest_state}',  
+  labs(title = 'Potato Yield (tonnes per hectare) : {closest_state}',  
        subtitle  =  "Top 5 Countries",
        caption  = "Data Source: Our World in Data"
       )
