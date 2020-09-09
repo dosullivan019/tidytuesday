@@ -63,7 +63,7 @@ ggplot(catchphrases_top3, aes(x=speaker)) + ylim(25,230) + xlim(30,170) +
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank()) +
   labs(title=bquote("F  R  I  E  N  D  S"),
-       subtitle = 'The one with the catchphrases',
+       subtitle = 'The one with the trigrams',
        caption = 'Data Source: friends data package')
 
 ggsave('friends.png', path='plots', width=16, height=10)
