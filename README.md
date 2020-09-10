@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2020
+### Week 37: Friends
+![Friends trigram per character](https://github.com/dosullivan019/tidytuesday/blob/master/plots/friends.png)
+
 ### Week 36: Global Crop Yields
 ![Top 5 Countries for Potatoe Crop Yield Animated Bar Plot](https://github.com/dosullivan019/tidytuesday/blob/master/plots/potatoe_animation.gif)
 
