@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2020
+### Week 39: Himalayan Climbers
+![Mount Everest Deaths and Injuries](https://github.com/dosullivan019/tidytuesday/blob/master/plots/HimalayanClimbers.png)
+
 ### Week 37: Friends
 ![Friends trigram per character](https://github.com/dosullivan019/tidytuesday/blob/master/plots/friends.png)
 
