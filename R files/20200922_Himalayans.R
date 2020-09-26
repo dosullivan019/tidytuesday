@@ -6,8 +6,6 @@ library(ggpubr)
 library(dplyr)
 library(extrafont)
 
-# TODO: Add legend to plot, play around with title colours and font, maybe change colour of bar plot labels
-
 members <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-09-22/members.csv')
 
 # extract mt everest data
