@@ -84,7 +84,7 @@ top5_injury_roles <-
   ggplot(aes(x=reorder(expedition_role, n),y=n)) + 
   geom_bar(stat='identity',fill='grey55') + coord_flip() +
   labs(title = 'Top 5', subtitle = 'Expedition Roles of Injured') +
-  geom_text(aes(y=ifelse(n>20,n,n+20), label=n), size=4.5, hjust=1.1, col='black') +
+  geom_text(aes(y=ifelse(n>20,n,n+30), label=n), size=4.5, hjust=1.1, col='black') +
   theme(panel.border=element_blank(),
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),
@@ -129,8 +129,8 @@ top5_death_roles <- everest %>% filter(died==TRUE) %>%
   dplyr::slice_head(., n=5, order_by=-n) %>%
   ggplot(aes(x=reorder(expedition_role, n),y=n)) + 
   geom_bar(stat='identity',fill='grey55') + coord_flip() +
-  labs(title = 'Top 5', subtitle = 'Expedition Roles of Deaths') +
-  geom_text(aes(y=ifelse(n>20,n,n+5), label=n), size=4.5, hjust=1.1,col='black') +
+  labs(title = 'Top 5', subtitle = 'Expedition Roles of Deaths', caption='Data Source: The Himalayan Database') +
+  geom_text(aes(y=ifelse(n>20,n,n+10), label=n), size=4.5, hjust=1.1,col='black') +
   theme(panel.border=element_blank(),
         panel.grid.major=element_blank(),
         panel.grid.minor=element_blank(),
@@ -142,7 +142,8 @@ top5_death_roles <- everest %>% filter(died==TRUE) %>%
         plot.background = element_rect(fill='lightgrey',color=NA),
         panel.background = element_rect(fill='lightgrey'),
         plot.title=element_text(hjust=0.5, face="bold", colour="black",family="Lucida Calligraphy"),
-        plot.subtitle=element_text(size=12,hjust=0.5, face="bold", colour="black",family="Lucida Calligraphy"))
+        plot.subtitle=element_text(size=12,hjust=0.5, face="bold", colour="black",family="Lucida Calligraphy"),
+        plot.caption=element_text(size=8,hjust=1, face="bold", colour="black",family="Lucida Calligraphy"))
 
 
 # Arranging top5 graphs
