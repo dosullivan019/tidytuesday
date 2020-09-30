@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2020
+### Week 40: Beyonce and Taylor Swift
+![Beyonce and Taylor Swift Sentiment Analysis](https://github.com/dosullivan019/tidytuesday/blob/master/plots/beyonce_tswift.png)
+
 ### Week 39: Himalayan Climbers
 ![Mount Everest Deaths and Injuries](https://github.com/dosullivan019/tidytuesday/blob/master/plots/HimalayanClimbers.png)
 
