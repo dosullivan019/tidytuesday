@@ -1,6 +1,11 @@
 # tidytuesday
 My contributions and code for #tidytuesdy
 
+## 2021
+### Week 4: Kenya Census Data
+![Kenya Average Household Size](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W4_KenyaCensus.png)
+
+
 ## 2020
 ### Week 40: Beyonce and Taylor Swift
 ![Beyonce and Taylor Swift Sentiment Analysis](https://github.com/dosullivan019/tidytuesday/blob/master/plots/beyonce_tswift.png)
