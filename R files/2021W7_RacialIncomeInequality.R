@@ -24,11 +24,16 @@ race_wealth_plot = race_wealth %>% filter(type=='Median') %>%
         axis.line = element_line(colour = "gray30"),
         plot.background = element_rect(fill='lightgrey',color=NA),
         panel.background = element_rect(fill='lightgrey'),
-        plot.title = element_text(size=20,face='bold', colour='gray15'),
-        plot.subtitle = element_text(size=14, face='bold',colour='gray30'),
+        plot.title = element_text(size=22,face='bold', colour='gray15'),
+        plot.subtitle = element_text(size=16, face='bold',colour='gray30'),
         legend.background = element_rect(fill='lightgrey',color=NA),
         legend.key = element_rect(fill = "lightgrey", colour = NA),
-        legend.position = 'bottom')
+        legend.text = element_text(colour='gray30', size=10),
+        legend.position = 'bottom',
+        axis.title.x = element_text(colour='gray30', size=10, face='bold'),
+        axis.text.x = element_text(colour='gray30', size=10),
+        axis.title.y = element_text(colour='gray30', size=10, face='bold'),
+        axis.text.y = element_text(colour='gray30', size=10))
 
 # plot yearly home ownership % per race
 home_owner_plot = home_owner %>% 
@@ -45,11 +50,15 @@ home_owner_plot = home_owner %>%
         axis.line = element_line(colour = "gray30"),
         plot.background = element_rect(fill='lightgrey',color=NA),
         panel.background = element_rect(fill='lightgrey'),
-        plot.title = element_text(size=14,face='bold', colour="gray30"),
-        plot.caption=element_text(size=10,hjust=1, vjust=1, face="italic", colour="gray10"),
-        legend.position = 'none')
+        plot.title = element_text(size=16,face='bold', colour="gray30"),
+        plot.caption=element_text(size=12,hjust=1, vjust=1, face="italic", colour="gray10"),
+        legend.position = 'none',
+        axis.title.x = element_text(colour='gray30', size=10, face='bold'),
+        axis.text.x = element_text(colour='gray30', size=10),
+        axis.title.y = element_text(colour='gray30', size=10, face='bold'),
+        axis.text.y = element_text(colour='gray30', size=10))
 
 # Arranging both graphs
 ggarrange(race_wealth_plot, home_owner_plot, ncol=1, nrow=2, heights = c(2.5,2.25)) + 
   bgcolor('lightgrey') + border(color='lightgrey')
-ggsave('plots/2021W7_RacialIncomeInequality.png', width=16,height=10)
+ggsave('plots/2021W7_RacialIncomeInequality.png', width=12,height=10)
