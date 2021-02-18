@@ -2,6 +2,10 @@
 My contributions and code for #tidytuesdy
 
 ## 2021
+### Week 8: Dubois Challenge
+![Dubois Challenge](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W8_DuboisChallenge.png)
+
+
 ### Week 7: Wealth Inequality
 ![Income Inequality](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W7_RacialIncomeInequality.png)
 
