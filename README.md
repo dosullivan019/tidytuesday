@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2021
+### Week 9: Employment and Earnings
+![Median Earnings of Women of different race](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W9_EmploymentAndEarnings.png)
+
 ### Week 8: Dubois Challenge
 ![Dubois Challenge](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W8_DuboisChallenge.png)
 
