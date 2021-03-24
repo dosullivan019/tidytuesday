@@ -40,11 +40,12 @@ left_join(rne_map, roll_votes, by=c('postal'='country_code')) %>%
        caption = 'Data Source: Harvard Dataverse\nCreated by: dosullivan019') +
   theme(legend.position = 'top',
         panel.background = element_rect(fill='grey97'),
-        plot.title=element_text(size=22, face='bold', colour="black",family="Bodoni MT"),
-        plot.subtitle=element_text(size=16, colour="black",family="Bodoni MT"),
+        plot.title=element_text(size=30, face='bold', colour="black",family="Bodoni MT"),
+        plot.subtitle=element_text(size=25, colour="black",family="Bodoni MT"),
         plot.caption=element_text(size=7, face="italic"),
-        legend.title = element_text(size=12, family='Bodoni MT'),
-        legend.text = element_text(size=12, family='Bodoni MT'),
-        strip.text.x = element_text(size = 12, family='Bodoni MT'))
+        legend.title = element_text(size=16, family='Bodoni MT'),
+        legend.text = element_text(size=16, family='Bodoni MT'),
+        strip.text.x = element_text(size = 16, family='Bodoni MT'))
 
-ggsave('plots/2021W13_UN_Votes.png', width=14, height=7)
+ggsave('plots/2021W13_UN_Votes.png', width=12, height=10.5,
+       device = "png", type = "cairo")
