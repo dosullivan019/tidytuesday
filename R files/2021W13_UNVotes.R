@@ -35,7 +35,7 @@ left_join(rne_map, roll_votes, by=c('postal'='country_code')) %>%
                                    labeller = label_wrap_gen(width=40)) + 
   scale_fill_manual(values=c('grey59', 'royalblue', 'skyblue'), na.value = 'lightgrey') +
   labs(title='UN Votes 2019',
-       subtitle = 'USA were one of few countries who voted against anti-racism,\na nuclear weapon free world and transparency in outer space advancements.',
+       subtitle = 'USA were one of few countries who voted against anti-racism, a nuclear\nweapon free world and transparency in outer space advancements.',
        fill='Vote',
        caption = 'Data Source: Harvard Dataverse\nCreated by: dosullivan019') +
   theme(legend.position = 'top',
@@ -43,9 +43,9 @@ left_join(rne_map, roll_votes, by=c('postal'='country_code')) %>%
         plot.title=element_text(size=30, face='bold', colour="black",family="Bodoni MT"),
         plot.subtitle=element_text(size=25, colour="black",family="Bodoni MT"),
         plot.caption=element_text(size=7, face="italic"),
-        legend.title = element_text(size=16, family='Bodoni MT'),
-        legend.text = element_text(size=16, family='Bodoni MT'),
-        strip.text.x = element_text(size = 16, family='Bodoni MT'))
+        legend.title = element_text(size=20),
+        legend.text = element_text(size=20),
+        strip.text.x = element_text(size =20))
 
 ggsave('plots/2021W13_UN_Votes.png', width=12, height=10.5,
        device = "png", type = "cairo")
