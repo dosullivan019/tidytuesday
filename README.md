@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2021
+### Week 13: UN Votes
+![UN Votes Map for 2019](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W13_UN_Votes.png)
+
 ### Week 9: Employment and Earnings
 ![Median Earnings of Women of different race](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W9_EmploymentAndEarnings.png)
 
