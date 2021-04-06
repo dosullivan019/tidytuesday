@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2021
+### Week 15: Deforestation
+![Timeseries of Soybean production](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W15_soybean.png)
+
 ### Week 13: UN Votes
 ![UN Votes Map for 2019](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W13_UN_Votes.png)
 
