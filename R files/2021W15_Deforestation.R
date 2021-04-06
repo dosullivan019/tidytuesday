@@ -19,8 +19,8 @@ soybean_plot <-
   scale_y_continuous(labels = unit_format(unit = "M", scale = 1e-6), limits = c(0,19000000)) +
   scale_x_continuous(limits=c(1960,2020.5), expand=c(0,0)) +
   scale_colour_manual(values=c('cornflowerblue','gold')) +
-  geom_text(aes(x=2014.5, y=18000000, label='Animal\n Feed'), colour='cornflowerblue',size=4.5, family='Georgia') +
-  geom_text(aes(x=2014.5, y=11050000, label='Human\n Food'), colour='gold',size=4.5, family='Georgia') +
+  geom_text(aes(x=2014.75, y=18000000, label='Animal\n Feed'), colour='cornflowerblue',size=4.5, family='Georgia') +
+  geom_text(aes(x=2014.75, y=11050000, label='Human\n Food'), colour='gold',size=4.5, family='Georgia') +
   labs(title='The Rise of Soybean Production',
        subtitle='Soybean for human consumption has more than doubled since 1960',
        y='',x='Year', caption='Data Source: Our World in Data\n Created by: dosullivan019') + 
