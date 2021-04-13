@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2021
+### Week 16: US Post Office
+![Map of US Post Office locations 1820 and 2020](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W16_US_Post_Office.png)
+
 ### Week 15: Deforestation
 ![Timeseries of Soybean production](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W15_soybean.png)
 
