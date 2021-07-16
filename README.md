@@ -5,6 +5,9 @@ My contributions and code for #tidytuesdy
 ### Week 29: Scooby Doo
 ![Sankey Chart of Scooby Doo characters and monster types caught](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W29_scooby_doo.png)
 
+### Week 28: International Independence Days
+![Map of the world showing years when countries gained independence from UK](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W28_independence.png)
+
 ### Week 16: US Post Office
 ![Map of US Post Office locations 1820 and 2020](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W16_US_Post_Office.png)
 
