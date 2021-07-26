@@ -28,7 +28,7 @@ rne_map %>% left_join(modified_drought, by=c('postal' = 'state_abb')) %>%
   labs(title = 'Drought Levels across the USA',
        subtitle = 'Date: 13 July 2021',
        fill = '',
-       caption='Data Source: The U.S. Drought Monitor \n(National Drought Mitigation Center,\n US Department of Agriculture and NOAA)\n Created by: dosullivan019') +
+       caption='Data Source: The U.S. Drought Monitor\n Created by: dosullivan019') +
   scale_alpha_continuous(range=c(0,1), guide='none') + 
   theme_void() +
   theme(legend.position = 'top',
