@@ -34,9 +34,9 @@ rne_map %>% left_join(modified_drought, by=c('postal' = 'state_abb')) %>%
   theme(legend.position = 'top',
         plot.title = element_text(hjust=0.5, family='Georgia'),
         plot.subtitle = element_text(hjust=0.5, family='Georgia'),
-        plot.caption = element_text(face='italic')) + 
+        plot.caption = element_text(face='italic', size=8)) + 
   guides(fill = guide_legend(title.position = "top",
-                             label.theme = element_text(family='Georgia')))
+                             label.theme = element_text(family='Georgia', size=8)))
 
 
 ggsave('plots/2021W30_drought.png')
