@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2021
+### Week 30: US Drought
+![US Map of Drought Intensity](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W30_drought.png)
+
 ### Week 29: Scooby Doo
 ![Sankey Chart of Scooby Doo characters and monster types caught](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W29_scooby_doo.png)
 
