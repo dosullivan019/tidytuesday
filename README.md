@@ -2,6 +2,9 @@
 My contributions and code for #tidytuesdy
 
 ## 2021
+### Week 37: F1 Racing
+![Line graph comparing Hamilton, Schumacher and Verstappens cumulative wins through time](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W37_F1Racing.png)
+
 ### Week 31: Olympic Medals
 ![Line graph of the average weight of male and female Summer Olympic medal winners from 1896 to 2016 broken down by sport](https://github.com/dosullivan019/tidytuesday/blob/master/plots/2021W31_olympic_medals.png)
 
